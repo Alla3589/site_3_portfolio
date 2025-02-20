@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+   
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height:40px;
+    margin-left: 120px ;
+   
+    
+    
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+}
+.main_item {
+display: flex;
+justify-content: space-between;
+}
+.main_image {
+width: 78px;
+height: 40px;
+}
+.icon {
+}
+.main_menu {
+width: 220px;
+height:40px ;
+
+}
+.menu {
+}
+.menu_ul {
+display: flex;
+list-style: none;
+justify-content: space-between;
+}
+.menu_li_1 {
+width: 39px;
+height: 16px;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0%;
+font-weight: 400px;
+}
+.menu_li_2 {
+width: 52px;
+height: 16px;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;
+font-weight: 400px ;
+}
+.menu_li_3 {
+    width: 40px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    font-weight: 400px ;
+    
+}
